@@ -8,9 +8,14 @@
 }
 
 .header {
+    font-size: 1.4rem; // .search inherit de <html> donc 10px/1rem, mais cela est trop petit, d'où l'ajout d'un font-size dans le parent .header
     height: 7rem;
     background-color: #fff;
     border-bottom: var(--color-grey-light-2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
